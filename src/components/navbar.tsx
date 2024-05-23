@@ -57,11 +57,12 @@ export default function Navigation() {
   return (
     <div className="flex flex-row justify-between items-center pt-3 pb-1 mb-2">
       <div className="flex gap-2 items-center justify-center">
-        <a href="/" className="flex gap-2 items-center">
+        <a href="/" className="flex gap-2 items-center justify-center">
           <Logo size={48} />
-          <div className="flex flex-col leading-5">
-            <p className="font-bold font">yusof</p>
-            <p>master yapper</p>
+          <div className="flex flex-col  align-middle">
+            <p className="font-bold font tracking-[-3px] text-3xl leading-[1ch]">
+              yusof
+            </p>
           </div>
         </a>
       </div>
